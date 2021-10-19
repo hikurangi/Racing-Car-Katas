@@ -6,7 +6,7 @@ namespace TDDMicroExercises.TirePressureMonitoringSystem
     {
         const double Offset = 16;
 
-        public double PopNextPressurePsiValue()
+        public virtual double PopNextPressurePsiValue()
         {
             double pressureTelemetryValue;
             SamplePressure(out pressureTelemetryValue);
